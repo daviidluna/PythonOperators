@@ -22,3 +22,17 @@ x = 80
 print(x > 87 or x < 87)
 x = 8 
 print(not(x > 4 and x < 9))
+
+y = ['tiger', 'lion']
+x = ['tiger', 'lion']
+z = x 
+print(z is x) #returns true because z is the same object as x
+print (x is y) #returns false because x is not the same object as y, even if they have the same content
+print (x == y) #to demonstrate the difference between 'is' and '==': this comparison returns true becaues x is equal to y 
+
+x = ['apple', 'banana']
+y = ['apple', 'banana']
+z = x
+print (x is not z)
+print (x is not y)
+print (x != y) # '!=' is 'not equal to'
